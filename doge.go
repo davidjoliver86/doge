@@ -1,6 +1,7 @@
 package doge
 
 import (
+	"fmt"
 	"strings"
 
 	"github.com/davidjoliver86/shiba"
@@ -20,4 +21,8 @@ func BigBark() string {
 
 func BigSuch(thing string) string {
 	return shiba.WhenGrownUp(Such(thing))
+}
+
+func From02() {
+	fmt.Println("I'm from v0.2.0")
 }
