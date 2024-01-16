@@ -26,3 +26,7 @@ func BigSuch(thing string) string {
 func From02() {
 	fmt.Println("I'm from v0.2.0")
 }
+
+func From03() {
+	fmt.Println("I'm from v0.3.0")
+}
